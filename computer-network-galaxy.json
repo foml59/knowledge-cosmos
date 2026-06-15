@@ -1,0 +1,2294 @@
+{
+  "nodes": [
+    {
+      "id": "star-computer-network",
+      "name": "计算机网络",
+      "type": "blackhole",
+      "field": "计算机网络",
+      "description": "计算机网络是利用通信链路将地理上分散的自治计算机系统互连起来，实现资源共享和信息传递的系统。本知识体系涵盖网络体系结构、协议栈、IP地址与路由、网络安全、网络应用及新兴技术等核心领域，是现代信息社会不可或缺的基础设施。",
+      "importance": 10,
+      "color": "#FFD700",
+      "val": 20
+    },
+    {
+      "id": "planet-01-basics",
+      "name": "计算机网络基础",
+      "type": "galaxy-core",
+      "field": "网络基础",
+      "description": "计算机网络基础涵盖网络的基本概念与定义、从ARPANET到移动互联网的发展历程、按覆盖范围划分的网络分类体系（PAN/LAN/MAN/WAN），以及带宽、延迟、吞吐量、丢包率和抖动等关键性能指标，是理解整个网络知识体系的根基。",
+      "importance": 9,
+      "color": "#00bcd4",
+      "val": 12,
+      "galaxyType": "elliptical"
+    },
+    {
+      "id": "satellite-1-1-history",
+      "name": "网络发展历程",
+      "type": "satellite",
+      "field": "网络基础",
+      "description": "从1962年分组交换理论提出，到1969年ARPANET诞生、1983年TCP/IP协议确立、1991年万维网发明，再到移动互联网与云计算时代，记录了计算机网络半个多世纪的关键里程碑。",
+      "importance": 7,
+      "color": "#00bcd4",
+      "val": 6
+    },
+    {
+      "id": "fragment-1-1-1-packet-switching",
+      "name": "分组交换理论(Paul Baran 1962)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "Paul Baran于1962年提出的分组交换理论，奠定了现代网络通信基础",
+      "importance": 5,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-1-2-arpanet",
+      "name": "ARPANET(1969)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "1969年美国国防部建立的ARPANET，互联网的前身",
+      "importance": 5,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-1-3-tcpip-birth",
+      "name": "TCP/IP协议诞生(1983)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "1983年TCP/IP协议正式成为ARPANET标准协议，标志着现代互联网协议的诞生",
+      "importance": 6,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-1-4-www",
+      "name": "万维网WWW(1991)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "Tim Berners-Lee于1991年发明的万维网，极大推动了互联网的普及",
+      "importance": 6,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-1-5-web2-mobile",
+      "name": "Web 2.0与移动互联网(2000-2010)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "2000-2010年代Web 2.0兴起与移动互联网爆发，社交媒体和智能手机改变网络格局",
+      "importance": 5,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "satellite-1-2-classification",
+      "name": "网络分类体系",
+      "type": "satellite",
+      "field": "网络基础",
+      "description": "按覆盖范围将网络划分为个人区域网PAN、局域网LAN、城域网MAN、广域网WAN和互联网Internet五类，各类网络在传输距离、速率和适用场景上各有差异。",
+      "importance": 7,
+      "color": "#00bcd4",
+      "val": 6
+    },
+    {
+      "id": "fragment-1-2-1-pan",
+      "name": "PAN个人区域网",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "Personal Area Network，覆盖范围通常在10米以内，如蓝牙连接",
+      "importance": 4,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-2-2-lan",
+      "name": "LAN局域网",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "Local Area Network，覆盖范围通常在一栋建筑或校园内，如以太网",
+      "importance": 6,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-2-3-man",
+      "name": "MAN城域网",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "Metropolitan Area Network，覆盖一个城市范围的网络",
+      "importance": 4,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-2-4-wan",
+      "name": "WAN广域网",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "Wide Area Network，覆盖跨越城市、国家甚至全球的网络",
+      "importance": 6,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-2-5-internet",
+      "name": "互联网Internet",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "全球最大的互联网络，连接数十亿设备和用户",
+      "importance": 7,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "satellite-1-3-performance",
+      "name": "性能指标详解",
+      "type": "satellite",
+      "field": "网络基础",
+      "description": "衡量网络性能的核心指标包括带宽（信道容量上限）、延迟（四类延迟之和）、吞吐量（实际传输速率）、丢包率和抖动，它们共同决定了网络的服务质量。",
+      "importance": 8,
+      "color": "#00bcd4",
+      "val": 6
+    },
+    {
+      "id": "fragment-1-3-1-bandwidth",
+      "name": "带宽(Bandwidth)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "网络信道传输数据的能力上限，单位通常为bps",
+      "importance": 6,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-3-2-latency",
+      "name": "延迟(Latency)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "数据从发送端到接收端所需的时间，包括传播延迟、传输延迟、处理延迟和排队延迟",
+      "importance": 6,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-3-3-throughput",
+      "name": "吞吐量(Throughput)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "单位时间内实际传输的数据量，受带宽和延迟共同影响",
+      "importance": 6,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-3-4-packet-loss",
+      "name": "丢包率(Packet Loss)",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "传输过程中丢失数据包占总发送数据包的比例，TCP通过重传机制解决丢包问题",
+      "importance": 6,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "fragment-1-3-5-jitter",
+      "name": "抖动(Jitter)",
+      "type": "asteroid",
+      "field": "网络基础",
+      "description": "网络延迟的变化量，对实时音视频通信影响显著",
+      "importance": 5,
+      "color": "#00bcd4",
+      "val": 3
+    },
+    {
+      "id": "satellite-2-0-architecture",
+      "name": "网络体系结构",
+      "type": "satellite",
+      "field": "网络体系结构",
+      "description": "计算机网络的分层体系结构设计原则与核心概念",
+      "importance": 8,
+      "color": "#9c27b0",
+      "val": 6
+    },
+    {
+      "id": "fragment-2-0-1-layered-model",
+      "name": "分层模型概念",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "将复杂网络功能划分为多个层次，每层负责特定功能，层间通过接口交互",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "satellite-3-0-protocol-overview",
+      "name": "协议总论",
+      "type": "satellite",
+      "field": "网络协议",
+      "description": "网络协议的基本概念：协议是同层实体间通信的规则，服务是下层向上层提供的功能",
+      "importance": 8,
+      "color": "#4caf50",
+      "val": 6
+    },
+    {
+      "id": "fragment-2-0-2-interface-pdu",
+      "name": "接口与数据单元",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "层间接口定义了上下层交互方式，PDU(协议数据单元)是各层的数据单位",
+      "importance": 6,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "planet-02-osi",
+      "name": "OSI参考模型",
+      "type": "galaxy-core",
+      "field": "网络体系结构",
+      "description": "OSI参考模型是国际标准化组织ISO于1984年提出的七层网络架构，从下至上依次为物理层、数据链路层、网络层、传输层、会话层、表示层和应用层。每层具有明确的职责边界，遵循层间解耦和对等通信的设计原则，是理解网络协议分层思想的理论基石。",
+      "importance": 9,
+      "color": "#9c27b0",
+      "val": 12,
+      "galaxyType": "spiral"
+    },
+    {
+      "id": "satellite-2-1-seven-layers",
+      "name": "七层结构详解",
+      "type": "satellite",
+      "field": "网络体系结构",
+      "description": "OSI参考模型的七层结构及其各自的功能职责",
+      "importance": 9,
+      "color": "#9c27b0",
+      "val": 6
+    },
+    {
+      "id": "fragment-2-1-1-physical",
+      "name": "物理层(Physical)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "OSI第一层，负责比特流在物理介质上的传输，定义电气和机械规范",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-1-2-datalink",
+      "name": "数据链路层(Data Link)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "OSI第二层，负责相邻节点间的可靠数据传输，提供帧同步和差错控制",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-1-3-network",
+      "name": "网络层(Network)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "OSI第三层，负责数据包从源到目的端的路由选择和转发",
+      "importance": 8,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-1-4-transport",
+      "name": "传输层(Transport)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "OSI第四层，提供端到端的可靠数据传输服务",
+      "importance": 8,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-1-5-session",
+      "name": "会话层(Session)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "OSI第五层，负责建立、管理和终止应用程序之间的会话",
+      "importance": 5,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-1-6-presentation",
+      "name": "表示层(Presentation)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "OSI第六层，负责数据格式转换、加密解密和数据压缩",
+      "importance": 5,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-1-7-application",
+      "name": "应用层(Application)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "OSI第七层，直接为用户应用程序提供网络服务接口",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "satellite-2-2-protocols",
+      "name": "各层协议详解",
+      "type": "satellite",
+      "field": "网络体系结构",
+      "description": "OSI各层对应的关键协议及其工作原理",
+      "importance": 8,
+      "color": "#9c27b0",
+      "val": 6
+    },
+    {
+      "id": "fragment-2-2-1-ethernet",
+      "name": "以太网协议",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "数据链路层最广泛使用的局域网协议，采用CSMA/CD介质访问控制",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-2-2-ip",
+      "name": "IP协议",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "网络层核心协议，提供无连接的数据报传输服务和寻址功能",
+      "importance": 8,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-2-3-tcp-udp",
+      "name": "TCP/UDP协议",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "传输层两大核心协议，TCP提供可靠传输，UDP提供高效传输",
+      "importance": 8,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-2-4-http-ftp-smtp",
+      "name": "HTTP/FTP/SMTP协议",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "应用层常见协议，分别用于Web浏览、文件传输和电子邮件",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "satellite-2-3-encapsulation",
+      "name": "数据封装与解封装",
+      "type": "satellite",
+      "field": "网络体系结构",
+      "description": "数据在各层之间的封装与解封装过程",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 6
+    },
+    {
+      "id": "fragment-2-3-1-encapsulation",
+      "name": "封装过程(逐层添加头部)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "发送端数据从应用层向下传输时，每层添加自己的协议头部信息",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-3-2-decapsulation",
+      "name": "解封装过程(逐层去除头部)",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "接收端数据从物理层向上传输时，每层去除对应的协议头部信息",
+      "importance": 7,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "fragment-2-3-3-pdu",
+      "name": "PDU协议数据单元",
+      "type": "asteroid",
+      "field": "网络体系结构",
+      "description": "各层的协议数据单元：物理层为比特，数据链路层为帧，网络层为包，传输层为段",
+      "importance": 6,
+      "color": "#9c27b0",
+      "val": 3
+    },
+    {
+      "id": "planet-03-tcpip",
+      "name": "TCP/IP协议栈",
+      "type": "galaxy-core",
+      "field": "网络协议",
+      "description": "TCP/IP协议栈是互联网实际采用的四层协议体系，包含网络接口层、网际层（IP/ICMP/ARP）、传输层（TCP/UDP）和应用层（HTTP/DNS/SMTP等）。它采用实践驱动的自底向上设计哲学，与OSI模型形成互补，是现代网络通信事实上的工业标准。",
+      "importance": 10,
+      "color": "#4caf50",
+      "val": 12,
+      "galaxyType": "barred-spiral"
+    },
+    {
+      "id": "satellite-3-1-compare",
+      "name": "TCP/IP与OSI模型对比",
+      "type": "satellite",
+      "field": "网络协议",
+      "description": "TCP/IP四层模型与OSI七层模型的对比分析",
+      "importance": 8,
+      "color": "#4caf50",
+      "val": 6
+    },
+    {
+      "id": "fragment-3-1-1-mapping",
+      "name": "四层vs七层映射",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "TCP/IP四层(链路层/网络层/传输层/应用层)与OSI七层的对应映射关系",
+      "importance": 7,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "fragment-3-1-2-philosophy",
+      "name": "设计哲学差异",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "OSI先有模型后有协议(理论驱动)，TCP/IP先有协议后有模型(实践驱动)",
+      "importance": 6,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "satellite-3-2-tcp",
+      "name": "TCP协议详解",
+      "type": "satellite",
+      "field": "网络协议",
+      "description": "传输控制协议TCP提供面向连接的可靠传输服务，通过三次握手建立连接、滑动窗口实现流量控制、慢启动与拥塞避免实现拥塞控制，以及序列号与确认重传保障数据完整性。",
+      "importance": 9,
+      "color": "#4caf50",
+      "val": 6
+    },
+    {
+      "id": "fragment-3-2-1-three-way-handshake",
+      "name": "三次握手",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "TCP建立连接的三次握手过程：SYN → SYN+ACK → ACK",
+      "importance": 8,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "fragment-3-2-2-four-way-wave",
+      "name": "四次挥手",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "TCP断开连接的四次挥手过程：FIN → ACK → FIN → ACK",
+      "importance": 8,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "fragment-3-2-3-flow-control",
+      "name": "流量控制(滑动窗口)",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "TCP通过滑动窗口机制控制发送速率，防止接收方缓冲区溢出",
+      "importance": 7,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "fragment-3-2-4-congestion-control",
+      "name": "拥塞控制(慢启动/拥塞避免)",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "TCP拥塞控制算法：慢启动、拥塞避免、快重传、快恢复",
+      "importance": 8,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "fragment-3-2-5-reliable-transfer",
+      "name": "可靠传输(确认重传)",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "TCP通过序列号、确认号和超时重传机制实现可靠数据传输",
+      "importance": 7,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "satellite-3-3-udp",
+      "name": "UDP协议详解",
+      "type": "satellite",
+      "field": "网络协议",
+      "description": "用户数据报协议UDP是无连接的传输层协议，头部仅8字节，不保证可靠传输但开销小、延迟低，广泛用于DNS查询、实时音视频流和在线游戏等对时效性要求高的场景。",
+      "importance": 7,
+      "color": "#4caf50",
+      "val": 6
+    },
+    {
+      "id": "fragment-3-3-1-udp-format",
+      "name": "UDP报文格式",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "UDP报文头部仅8字节：源端口(2B) + 目的端口(2B) + 长度(2B) + 校验和(2B)",
+      "importance": 6,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "fragment-3-3-2-udp-features",
+      "name": "UDP特点(无连接/不可靠/高效)",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "UDP无连接、不保证可靠传输、开销小、延迟低，适合实时应用",
+      "importance": 7,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "fragment-3-3-3-udp-applications",
+      "name": "UDP应用场景(DNS/视频/游戏)",
+      "type": "asteroid",
+      "field": "网络协议",
+      "description": "UDP广泛应用于DNS查询、实时音视频流、在线游戏等对延迟敏感的场景",
+      "importance": 6,
+      "color": "#4caf50",
+      "val": 3
+    },
+    {
+      "id": "planet-04-ip-routing",
+      "name": "IP地址与路由",
+      "type": "galaxy-core",
+      "field": "网络层",
+      "description": "IP地址与路由是网络层的核心内容，涵盖IPv4的32位地址体系与子网划分（CIDR）、IPv6的128位地址格式及过渡技术，以及静态路由和动态路由协议（RIP/OSPF/BGP）的工作原理，是实现网络互联互通的关键技术基础。",
+      "importance": 9,
+      "color": "#ff9800",
+      "val": 12,
+      "galaxyType": "spiral"
+    },
+    {
+      "id": "satellite-4-1-ipv4",
+      "name": "IPv4地址详解",
+      "type": "satellite",
+      "field": "网络层",
+      "description": "IPv4使用32位地址，分为A/B/C/D/E五类，通过子网掩码和CIDR实现灵活的子网划分，配合NAT技术缓解地址枯竭问题，并包含回环、广播和组播等特殊地址用途。",
+      "importance": 8,
+      "color": "#ff9800",
+      "val": 6
+    },
+    {
+      "id": "fragment-4-1-1-ip-classes",
+      "name": "IP地址分类(A/B/C/D/E)",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "IPv4地址分为A/B/C/D/E五类，A类支持最大网络数最少主机，C类相反",
+      "importance": 7,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-1-2-subnet-cidr",
+      "name": "子网掩码与CIDR",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "子网掩码用于划分网络和主机部分，CIDR(无类域间路由)实现灵活的地址分配",
+      "importance": 8,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-1-3-nat",
+      "name": "私有地址与NAT",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "私有地址用于内部网络，NAT(网络地址转换)实现私有地址到公网地址的映射",
+      "importance": 7,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-1-4-special-addresses",
+      "name": "特殊地址(回环/广播/组播)",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "127.0.0.1回环地址、255.255.255.255广播地址、224.0.0.0组播地址等特殊用途地址",
+      "importance": 6,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "satellite-4-2-ipv6",
+      "name": "IPv6地址详解",
+      "type": "satellite",
+      "field": "网络层",
+      "description": "IPv6地址格式、地址类型和从IPv4到IPv6的过渡技术",
+      "importance": 7,
+      "color": "#ff9800",
+      "val": 6
+    },
+    {
+      "id": "fragment-4-2-1-ipv6-format",
+      "name": "IPv6地址格式(128位)",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "IPv6使用128位地址，用冒号分隔的8组十六进制数表示，如2001:0db8::1",
+      "importance": 7,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-2-2-ipv6-types",
+      "name": "IPv6地址类型",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "IPv6地址类型包括单播、任播和组播，取消了广播地址",
+      "importance": 6,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-2-3-transition",
+      "name": "IPv4到IPv6过渡技术",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "双栈(Dual Stack)、隧道(Tunneling)和转换(NAT64/DNS64)三种过渡技术",
+      "importance": 7,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "satellite-4-3-routing",
+      "name": "路由协议详解",
+      "type": "satellite",
+      "field": "网络层",
+      "description": "路由协议分为静态路由和动态路由两大类，动态路由包括基于距离矢量的RIP协议、基于链路状态的OSPF协议，以及互联网核心的外部网关协议BGP，路由器依据最长前缀匹配原则转发数据包。",
+      "importance": 8,
+      "color": "#ff9800",
+      "val": 6
+    },
+    {
+      "id": "fragment-4-3-1-static-routing",
+      "name": "静态路由",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "管理员手动配置的路由表项，适用于小型简单网络",
+      "importance": 5,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-3-2-rip",
+      "name": "RIP协议",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "路由信息协议RIP，基于距离矢量的内部网关协议，最大跳数15",
+      "importance": 6,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-3-3-ospf",
+      "name": "OSPF协议",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "开放最短路径优先OSPF，基于链路状态的内部网关协议，支持大型网络",
+      "importance": 7,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-3-4-bgp",
+      "name": "BGP协议",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "边界网关协议BGP，互联网核心使用的外部网关协议，基于路径矢量",
+      "importance": 8,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "fragment-4-3-5-routing-table",
+      "name": "路由表与路由选择",
+      "type": "asteroid",
+      "field": "网络层",
+      "description": "路由表存储路由信息，路由器根据最长前缀匹配原则选择最优路径",
+      "importance": 7,
+      "color": "#ff9800",
+      "val": 3
+    },
+    {
+      "id": "planet-05-devices-media",
+      "name": "网络设备与传输介质",
+      "type": "galaxy-core",
+      "field": "网络硬件",
+      "description": "网络设备与传输介质涵盖构建网络所需的物理基础设施，包括双绞线、光纤、同轴电缆等有线介质和Wi-Fi等无线介质，以及中继器、集线器、网桥、交换机、路由器、防火墙等网络设备，各自工作在不同协议层级，协同完成数据的转发与传输。",
+      "importance": 7,
+      "color": "#f44336",
+      "val": 12,
+      "galaxyType": "elliptical"
+    },
+    {
+      "id": "satellite-5-1-media",
+      "name": "传输介质详解",
+      "type": "satellite",
+      "field": "网络硬件",
+      "description": "有线和无线传输介质的分类、特性和应用场景",
+      "importance": 7,
+      "color": "#f44336",
+      "val": 6
+    },
+    {
+      "id": "fragment-5-1-1-twisted-pair",
+      "name": "双绞线(UTP/STP)",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "双绞线分为非屏蔽(UTP)和屏蔽(STP)，是最常用的局域网传输介质",
+      "importance": 6,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "fragment-5-1-2-fiber",
+      "name": "光纤(单模/多模)",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "光纤分为单模光纤(长距离)和多模光纤(短距离)，具有高带宽低损耗特性",
+      "importance": 7,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "fragment-5-1-3-coaxial",
+      "name": "同轴电缆",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "同轴电缆曾广泛用于早期以太网和有线电视网络，现逐渐被光纤取代",
+      "importance": 4,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "fragment-5-1-4-wireless",
+      "name": "无线介质(Wi-Fi/蓝牙/卫星)",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "无线传输介质包括Wi-Fi(IEEE 802.11)、蓝牙和卫星通信等",
+      "importance": 7,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "satellite-5-2-devices",
+      "name": "网络设备详解",
+      "type": "satellite",
+      "field": "网络硬件",
+      "description": "各类网络设备的功能、工作原理和适用场景",
+      "importance": 8,
+      "color": "#f44336",
+      "val": 6
+    },
+    {
+      "id": "fragment-5-2-1-repeater-hub",
+      "name": "中继器与集线器",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "中继器工作在物理层放大信号，集线器是多端口中继器，所有端口共享带宽",
+      "importance": 5,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "fragment-5-2-2-bridge",
+      "name": "网桥",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "网桥工作在数据链路层，根据MAC地址转发帧，可隔离冲突域",
+      "importance": 5,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "fragment-5-2-3-switch",
+      "name": "交换机",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "交换机工作在数据链路层，根据MAC地址表转发帧，每个端口独立带宽",
+      "importance": 7,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "fragment-5-2-4-router",
+      "name": "路由器",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "路由器工作在网络层，根据IP地址和路由表转发数据包，连接不同网络",
+      "importance": 8,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "fragment-5-2-5-firewall-gateway",
+      "name": "防火墙与网关",
+      "type": "asteroid",
+      "field": "网络硬件",
+      "description": "防火墙用于网络安全过滤，网关实现不同协议或网络间的转换连接",
+      "importance": 7,
+      "color": "#f44336",
+      "val": 3
+    },
+    {
+      "id": "planet-06-security",
+      "name": "网络安全",
+      "type": "galaxy-core",
+      "field": "安全",
+      "description": "网络安全涵盖计算机网络面临的被动攻击与主动威胁分析、对称加密（AES）与非对称加密（RSA）及哈希函数等密码学技术，以及SSL/TLS、IPSec、HTTPS和SSH等安全协议，构成保障网络通信机密性、完整性和可用性的多层次防御体系。",
+      "importance": 9,
+      "color": "#2196f3",
+      "val": 12,
+      "galaxyType": "irregular"
+    },
+    {
+      "id": "satellite-6-1-threats",
+      "name": "安全威胁分析",
+      "type": "satellite",
+      "field": "安全",
+      "description": "网络安全威胁分为被动攻击（窃听、流量分析）和主动攻击（篡改、伪造、DoS拒绝服务），还包括中间人攻击和病毒、蠕虫、木马等恶意软件，是构建安全防御策略的基础。",
+      "importance": 8,
+      "color": "#2196f3",
+      "val": 6
+    },
+    {
+      "id": "fragment-6-1-1-passive-attack",
+      "name": "被动攻击(窃听/流量分析)",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "被动攻击不修改数据，包括窃听通信内容和流量分析，难以检测",
+      "importance": 6,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-1-2-active-attack",
+      "name": "主动攻击(篡改/伪造/DoS)",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "主动攻击篡改或伪造数据，包括中间人攻击、拒绝服务攻击等",
+      "importance": 7,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-1-3-mitm",
+      "name": "中间人攻击",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "攻击者介入通信双方之间，窃听或篡改通信内容而不被察觉",
+      "importance": 7,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-1-4-malware",
+      "name": "恶意软件(病毒/蠕虫/木马)",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "恶意软件包括病毒(感染文件)、蠕虫(自我复制)和木马(伪装欺骗)",
+      "importance": 7,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "satellite-6-2-cryptography",
+      "name": "加密技术详解",
+      "type": "satellite",
+      "field": "安全",
+      "description": "对称加密、非对称加密、哈希函数和数字签名的原理与应用",
+      "importance": 9,
+      "color": "#2196f3",
+      "val": 6
+    },
+    {
+      "id": "fragment-6-2-1-symmetric",
+      "name": "对称加密(AES/DES)",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "加密和解密使用相同密钥，AES(256位)为当前标准，DES已不安全",
+      "importance": 8,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-2-2-asymmetric",
+      "name": "非对称加密(RSA/ECC)",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "使用公钥加密私钥解密(或反之)，RSA基于大数分解，ECC基于椭圆曲线",
+      "importance": 8,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-2-3-hash",
+      "name": "哈希函数(SHA/MD5)",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "将任意长度数据映射为固定长度摘要，SHA-256为当前推荐，MD5已不安全",
+      "importance": 7,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-2-4-signature",
+      "name": "数字签名与证书",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "数字签名用于验证消息完整性和发送者身份，CA证书提供公钥的可信分发",
+      "importance": 8,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "satellite-6-3-security-protocols",
+      "name": "安全协议详解",
+      "type": "satellite",
+      "field": "安全",
+      "description": "核心安全协议包括传输层SSL/TLS协议、网络层IPSec协议（AH/ESP模式）、应用层HTTPS协议以及SSH远程安全协议，它们在不同层级为网络通信提供加密、认证和完整性保护。",
+      "importance": 8,
+      "color": "#2196f3",
+      "val": 6
+    },
+    {
+      "id": "fragment-6-3-1-ssl-tls",
+      "name": "SSL/TLS协议",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "TLS(传输层安全)是SSL的继任者，提供传输层数据加密和身份认证",
+      "importance": 8,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-3-2-ipsec",
+      "name": "IPSec协议",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "IPSec在网络层提供安全服务，支持AH和ESP两种协议模式",
+      "importance": 7,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-3-3-https",
+      "name": "HTTPS协议",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "HTTPS = HTTP + TLS，为Web通信提供加密传输，是当前互联网安全基础",
+      "importance": 8,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "fragment-6-3-4-ssh",
+      "name": "SSH协议",
+      "type": "asteroid",
+      "field": "安全",
+      "description": "安全外壳协议SSH，提供加密的远程登录和文件传输服务",
+      "importance": 7,
+      "color": "#2196f3",
+      "val": 3
+    },
+    {
+      "id": "planet-07-applications",
+      "name": "网络应用与服务",
+      "type": "galaxy-core",
+      "field": "应用层",
+      "description": "网络应用与服务聚焦于应用层核心协议，包括DNS域名系统的层次结构与解析机制、HTTP协议的请求方法与状态码及版本演进、电子邮件的SMTP/POP3/IMAP协议，以及FTP文件传输等，是用户直接感知和使用的网络服务接口。",
+      "importance": 9,
+      "color": "#e91e63",
+      "val": 12,
+      "galaxyType": "spiral"
+    },
+    {
+      "id": "satellite-7-1-dns",
+      "name": "DNS域名系统",
+      "type": "satellite",
+      "field": "应用层",
+      "description": "域名系统DNS采用根域到顶级域到二级域的分层树状结构，通过递归与迭代两种查询方式将域名解析为IP地址，支持A/AAAA/CNAME/MX等多种记录类型，并利用缓存机制加速解析。",
+      "importance": 8,
+      "color": "#e91e63",
+      "val": 6
+    },
+    {
+      "id": "fragment-7-1-1-dns-hierarchy",
+      "name": "DNS层次结构(根域/顶级域/二级域)",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "DNS采用分层树状结构：根域(.) → 顶级域(.com/.cn) → 二级域 → 子域",
+      "importance": 7,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "fragment-7-1-2-dns-resolution",
+      "name": "DNS解析过程(递归/迭代)",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "递归查询由DNS服务器代为查询，迭代查询由客户端逐步查询各级DNS服务器",
+      "importance": 7,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "fragment-7-1-3-dns-records",
+      "name": "DNS记录类型(A/AAAA/CNAME/MX/NS)",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "A记录(IPv4)、AAAA记录(IPv6)、CNAME(别名)、MX(邮件)、NS(域名服务器)",
+      "importance": 7,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "fragment-7-1-4-dns-cache-cdn",
+      "name": "DNS缓存与CDN",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "DNS缓存减少查询延迟，CDN利用DNS将用户导向最近的缓存节点",
+      "importance": 6,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "satellite-7-2-http",
+      "name": "HTTP协议详解",
+      "type": "satellite",
+      "field": "应用层",
+      "description": "HTTP协议定义了GET/POST/PUT/DELETE等请求方法和2xx/3xx/4xx/5xx状态码体系，从HTTP/1.0短连接演进到HTTP/3基于QUIC的多路复用，结合Cookie与Session机制实现有状态交互。",
+      "importance": 9,
+      "color": "#e91e63",
+      "val": 6
+    },
+    {
+      "id": "fragment-7-2-1-http-methods",
+      "name": "HTTP请求方法(GET/POST/PUT/DELETE)",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "GET获取资源、POST提交数据、PUT更新资源、DELETE删除资源",
+      "importance": 8,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "fragment-7-2-2-http-status",
+      "name": "HTTP状态码(2xx/3xx/4xx/5xx)",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "2xx成功、3xx重定向、4xx客户端错误、5xx服务器错误",
+      "importance": 7,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "fragment-7-2-3-http-versions",
+      "name": "HTTP/1.0 vs HTTP/1.1 vs HTTP/2 vs HTTP/3",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "HTTP版本演进：1.0短连接→1.1长连接→2多路复用→3基于QUIC协议",
+      "importance": 8,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "fragment-7-2-4-https-tls",
+      "name": "HTTPS与TLS握手",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "HTTPS在TCP之上建立TLS加密通道，握手过程协商加密算法和交换密钥",
+      "importance": 8,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "fragment-7-2-5-cookie-session",
+      "name": "Cookie与Session",
+      "type": "asteroid",
+      "field": "应用层",
+      "description": "Cookie存储在客户端用于状态管理，Session存储在服务器端，两者配合实现会话跟踪",
+      "importance": 7,
+      "color": "#e91e63",
+      "val": 3
+    },
+    {
+      "id": "planet-08-emerging-tech",
+      "name": "网络新兴技术",
+      "type": "galaxy-core",
+      "field": "新兴技术",
+      "description": "网络新兴技术涵盖软件定义网络SDN与网络功能虚拟化NFV、5G移动通信与网络切片、云计算与数据中心网络、物联网IoT与边缘计算等前沿领域，这些技术正在深刻重塑网络架构与运营模式，推动网络向智能化、灵活化和可编程方向演进。",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 12,
+      "galaxyType": "lenticular"
+    },
+    {
+      "id": "satellite-8-1-sdn-nfv",
+      "name": "SDN与NFV",
+      "type": "satellite",
+      "field": "新兴技术",
+      "description": "软件定义网络SDV和网络功能虚拟化NFV的原理与应用",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 6
+    },
+    {
+      "id": "fragment-8-1-1-sdn",
+      "name": "软件定义网络(SDN)原理",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "SDN将控制平面与数据平面分离，通过集中控制器灵活管理网络",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 3
+    },
+    {
+      "id": "fragment-8-1-2-openflow",
+      "name": "OpenFlow协议",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "OpenFlow是SDN的核心南向接口协议，控制器通过它控制交换机流表",
+      "importance": 6,
+      "color": "#607d8b",
+      "val": 3
+    },
+    {
+      "id": "fragment-8-1-3-nfv",
+      "name": "网络功能虚拟化(NFV)",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "NFV将网络功能(防火墙/负载均衡等)从专用硬件迁移到通用服务器上虚拟化运行",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 3
+    },
+    {
+      "id": "satellite-8-2-cloud-network",
+      "name": "云计算网络",
+      "type": "satellite",
+      "field": "新兴技术",
+      "description": "虚拟私有云、负载均衡和内容分发网络等云计算网络技术",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 6
+    },
+    {
+      "id": "fragment-8-2-1-vpc",
+      "name": "虚拟网络(VPC)",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "虚拟私有云VPC在公有云中创建隔离的虚拟网络环境，支持自定义网段和路由",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 3
+    },
+    {
+      "id": "fragment-8-2-2-load-balancer",
+      "name": "负载均衡",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "负载均衡将流量分发到多台服务器，提高可用性和性能，支持L4/L7两种模式",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 3
+    },
+    {
+      "id": "fragment-8-2-3-cdn",
+      "name": "内容分发网络(CDN)",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "CDN将内容缓存到全球边缘节点，用户就近获取，降低延迟减轻源站压力",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 3
+    },
+    {
+      "id": "satellite-8-3-iot",
+      "name": "物联网网络",
+      "type": "satellite",
+      "field": "新兴技术",
+      "description": "物联网协议、边缘计算和5G网络技术",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 6
+    },
+    {
+      "id": "fragment-8-3-1-iot-protocols",
+      "name": "IoT协议(MQTT/CoAP)",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "MQTT轻量级发布/订阅协议适合IoT，CoAP基于UDP的受限环境应用层协议",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 3
+    },
+    {
+      "id": "fragment-8-3-2-edge-computing",
+      "name": "边缘计算",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "边缘计算将计算和存储推向网络边缘，减少延迟，适合实时IoT应用",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 3
+    },
+    {
+      "id": "fragment-8-3-3-5g",
+      "name": "5G网络",
+      "type": "asteroid",
+      "field": "新兴技术",
+      "description": "5G网络提供eMBB(大带宽)、URLLC(低延迟)和mMTC(大连接)三大特性",
+      "importance": 7,
+      "color": "#607d8b",
+      "val": 3
+    },
+
+    {
+      "id": "comet-002",
+      "name": "网络安全与加密",
+      "type": "comet",
+      "field": "跨领域",
+      "description": "网络安全领域与TCP/IP协议栈中加密技术的关联",
+      "importance": 7,
+      "color": "#FFEB3B",
+      "val": 8
+    },
+    {
+      "id": "comet-003",
+      "name": "HTTP与DNS协作",
+      "type": "comet",
+      "field": "跨领域",
+      "description": "HTTP协议与DNS系统在TCP/IP协议栈之上的协作关系",
+      "importance": 7,
+      "color": "#FFEB3B",
+      "val": 8
+    }
+  ],
+  "links": [
+    {
+      "source": "star-computer-network",
+      "target": "planet-01-basics",
+      "type": "strong-gravity",
+      "strength": 0.9,
+      "description": "恒星引力：计算机网络核心包含网络基础知识"
+    },
+    {
+      "source": "star-computer-network",
+      "target": "planet-02-osi",
+      "type": "strong-gravity",
+      "strength": 0.9,
+      "description": "恒星引力：计算机网络核心包含OSI参考模型"
+    },
+    {
+      "source": "star-computer-network",
+      "target": "planet-03-tcpip",
+      "type": "strong-gravity",
+      "strength": 0.9,
+      "description": "恒星引力：计算机网络核心包含TCP/IP协议栈"
+    },
+    {
+      "source": "star-computer-network",
+      "target": "planet-04-ip-routing",
+      "type": "strong-gravity",
+      "strength": 0.9,
+      "description": "恒星引力：计算机网络核心包含IP地址与路由"
+    },
+    {
+      "source": "star-computer-network",
+      "target": "planet-05-devices-media",
+      "type": "strong-gravity",
+      "strength": 0.9,
+      "description": "恒星引力：计算机网络核心包含网络设备与传输介质"
+    },
+    {
+      "source": "star-computer-network",
+      "target": "planet-06-security",
+      "type": "strong-gravity",
+      "strength": 0.9,
+      "description": "恒星引力：计算机网络核心包含网络安全"
+    },
+    {
+      "source": "star-computer-network",
+      "target": "planet-07-applications",
+      "type": "strong-gravity",
+      "strength": 0.9,
+      "description": "恒星引力：计算机网络核心包含网络应用与服务"
+    },
+    {
+      "source": "star-computer-network",
+      "target": "planet-08-emerging-tech",
+      "type": "strong-gravity",
+      "strength": 0.9,
+      "description": "恒星引力：计算机网络核心包含网络新兴技术"
+    },
+    {
+      "source": "planet-01-basics",
+      "target": "satellite-1-1-history",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：计算机网络基础包含网络发展历程"
+    },
+    {
+      "source": "planet-01-basics",
+      "target": "satellite-1-2-classification",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：计算机网络基础包含网络分类体系"
+    },
+    {
+      "source": "planet-01-basics",
+      "target": "satellite-1-3-performance",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：计算机网络基础包含性能指标详解"
+    },
+    {
+      "source": "planet-01-basics",
+      "target": "satellite-1-4-architecture",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：计算机网络基础包含网络体系结构"
+    },
+    {
+      "source": "satellite-1-1-history",
+      "target": "fragment-1-1-1-packet-switching",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络发展历程包含分组交换理论"
+    },
+    {
+      "source": "satellite-1-1-history",
+      "target": "fragment-1-1-2-arpanet",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络发展历程包含ARPANET"
+    },
+    {
+      "source": "satellite-1-1-history",
+      "target": "fragment-1-1-3-tcpip-birth",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络发展历程包含TCP/IP协议诞生"
+    },
+    {
+      "source": "satellite-1-1-history",
+      "target": "fragment-1-1-4-www",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络发展历程包含万维网WWW"
+    },
+    {
+      "source": "satellite-1-1-history",
+      "target": "fragment-1-1-5-web2-mobile",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络发展历程包含Web 2.0与移动互联网"
+    },
+    {
+      "source": "satellite-1-2-classification",
+      "target": "fragment-1-2-1-pan",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络分类体系包含PAN个人区域网"
+    },
+    {
+      "source": "satellite-1-2-classification",
+      "target": "fragment-1-2-2-lan",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络分类体系包含LAN局域网"
+    },
+    {
+      "source": "satellite-1-2-classification",
+      "target": "fragment-1-2-3-man",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络分类体系包含MAN城域网"
+    },
+    {
+      "source": "satellite-1-2-classification",
+      "target": "fragment-1-2-4-wan",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络分类体系包含WAN广域网"
+    },
+    {
+      "source": "satellite-1-2-classification",
+      "target": "fragment-1-2-5-internet",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络分类体系包含互联网Internet"
+    },
+    {
+      "source": "satellite-1-3-performance",
+      "target": "fragment-1-3-1-bandwidth",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：性能指标详解包含带宽"
+    },
+    {
+      "source": "satellite-1-3-performance",
+      "target": "fragment-1-3-2-latency",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：性能指标详解包含延迟"
+    },
+    {
+      "source": "satellite-1-3-performance",
+      "target": "fragment-1-3-3-throughput",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：性能指标详解包含吞吐量"
+    },
+    {
+      "source": "satellite-1-3-performance",
+      "target": "fragment-1-3-4-packet-loss",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：性能指标详解包含丢包率"
+    },
+    {
+      "source": "satellite-1-3-performance",
+      "target": "fragment-1-3-5-jitter",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：性能指标详解包含抖动"
+    },
+    {
+      "source": "satellite-1-4-architecture",
+      "target": "fragment-1-4-1-layered-model",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络体系结构包含分层模型概念"
+    },
+    {
+      "source": "satellite-1-4-architecture",
+      "target": "fragment-1-4-2-protocol-service",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络体系结构包含协议与服务"
+    },
+    {
+      "source": "satellite-1-4-architecture",
+      "target": "fragment-1-4-3-interface-pdu",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络体系结构包含接口与数据单元"
+    },
+    {
+      "source": "planet-02-osi",
+      "target": "satellite-2-1-seven-layers",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：OSI参考模型包含七层结构详解"
+    },
+    {
+      "source": "planet-02-osi",
+      "target": "satellite-2-2-protocols",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：OSI参考模型包含各层协议详解"
+    },
+    {
+      "source": "planet-02-osi",
+      "target": "satellite-2-3-encapsulation",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：OSI参考模型包含数据封装与解封装"
+    },
+    {
+      "source": "satellite-2-1-seven-layers",
+      "target": "fragment-2-1-1-physical",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：七层结构详解包含物理层"
+    },
+    {
+      "source": "satellite-2-1-seven-layers",
+      "target": "fragment-2-1-2-datalink",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：七层结构详解包含数据链路层"
+    },
+    {
+      "source": "satellite-2-1-seven-layers",
+      "target": "fragment-2-1-3-network",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：七层结构详解包含网络层"
+    },
+    {
+      "source": "satellite-2-1-seven-layers",
+      "target": "fragment-2-1-4-transport",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：七层结构详解包含传输层"
+    },
+    {
+      "source": "satellite-2-1-seven-layers",
+      "target": "fragment-2-1-5-session",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：七层结构详解包含会话层"
+    },
+    {
+      "source": "satellite-2-1-seven-layers",
+      "target": "fragment-2-1-6-presentation",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：七层结构详解包含表示层"
+    },
+    {
+      "source": "satellite-2-1-seven-layers",
+      "target": "fragment-2-1-7-application",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：七层结构详解包含应用层"
+    },
+    {
+      "source": "satellite-2-2-protocols",
+      "target": "fragment-2-2-1-ethernet",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：各层协议详解包含以太网协议"
+    },
+    {
+      "source": "satellite-2-2-protocols",
+      "target": "fragment-2-2-2-ip",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：各层协议详解包含IP协议"
+    },
+    {
+      "source": "satellite-2-2-protocols",
+      "target": "fragment-2-2-3-tcp-udp",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：各层协议详解包含TCP/UDP协议"
+    },
+    {
+      "source": "satellite-2-2-protocols",
+      "target": "fragment-2-2-4-http-ftp-smtp",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：各层协议详解包含HTTP/FTP/SMTP协议"
+    },
+    {
+      "source": "satellite-2-3-encapsulation",
+      "target": "fragment-2-3-1-encapsulation",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：数据封装与解封装包含封装过程"
+    },
+    {
+      "source": "satellite-2-3-encapsulation",
+      "target": "fragment-2-3-2-decapsulation",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：数据封装与解封装包含解封装过程"
+    },
+    {
+      "source": "satellite-2-3-encapsulation",
+      "target": "fragment-2-3-3-pdu",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：数据封装与解封装包含PDU协议数据单元"
+    },
+    {
+      "source": "planet-03-tcpip",
+      "target": "satellite-3-1-compare",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：TCP/IP协议栈包含TCP/IP与OSI模型对比"
+    },
+    {
+      "source": "planet-03-tcpip",
+      "target": "satellite-3-2-tcp",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：TCP/IP协议栈包含TCP协议详解"
+    },
+    {
+      "source": "planet-03-tcpip",
+      "target": "satellite-3-3-udp",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：TCP/IP协议栈包含UDP协议详解"
+    },
+    {
+      "source": "satellite-3-1-compare",
+      "target": "fragment-3-1-1-mapping",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：TCP/IP与OSI模型对比包含四层vs七层映射"
+    },
+    {
+      "source": "satellite-3-1-compare",
+      "target": "fragment-3-1-2-philosophy",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：TCP/IP与OSI模型对比包含设计哲学差异"
+    },
+    {
+      "source": "satellite-3-2-tcp",
+      "target": "fragment-3-2-1-three-way-handshake",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：TCP协议详解包含三次握手"
+    },
+    {
+      "source": "satellite-3-2-tcp",
+      "target": "fragment-3-2-2-four-way-wave",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：TCP协议详解包含四次挥手"
+    },
+    {
+      "source": "satellite-3-2-tcp",
+      "target": "fragment-3-2-3-flow-control",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：TCP协议详解包含流量控制"
+    },
+    {
+      "source": "satellite-3-2-tcp",
+      "target": "fragment-3-2-4-congestion-control",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：TCP协议详解包含拥塞控制"
+    },
+    {
+      "source": "satellite-3-2-tcp",
+      "target": "fragment-3-2-5-reliable-transfer",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：TCP协议详解包含可靠传输"
+    },
+    {
+      "source": "satellite-3-3-udp",
+      "target": "fragment-3-3-1-udp-format",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：UDP协议详解包含UDP报文格式"
+    },
+    {
+      "source": "satellite-3-3-udp",
+      "target": "fragment-3-3-2-udp-features",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：UDP协议详解包含UDP特点"
+    },
+    {
+      "source": "satellite-3-3-udp",
+      "target": "fragment-3-3-3-udp-applications",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：UDP协议详解包含UDP应用场景"
+    },
+    {
+      "source": "planet-04-ip-routing",
+      "target": "satellite-4-1-ipv4",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：IP地址与路由包含IPv4地址详解"
+    },
+    {
+      "source": "planet-04-ip-routing",
+      "target": "satellite-4-2-ipv6",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：IP地址与路由包含IPv6地址详解"
+    },
+    {
+      "source": "planet-04-ip-routing",
+      "target": "satellite-4-3-routing",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：IP地址与路由包含路由协议详解"
+    },
+    {
+      "source": "satellite-4-1-ipv4",
+      "target": "fragment-4-1-1-ip-classes",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：IPv4地址详解包含IP地址分类"
+    },
+    {
+      "source": "satellite-4-1-ipv4",
+      "target": "fragment-4-1-2-subnet-cidr",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：IPv4地址详解包含子网掩码与CIDR"
+    },
+    {
+      "source": "satellite-4-1-ipv4",
+      "target": "fragment-4-1-3-nat",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：IPv4地址详解包含私有地址与NAT"
+    },
+    {
+      "source": "satellite-4-1-ipv4",
+      "target": "fragment-4-1-4-special-addresses",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：IPv4地址详解包含特殊地址"
+    },
+    {
+      "source": "satellite-4-2-ipv6",
+      "target": "fragment-4-2-1-ipv6-format",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：IPv6地址详解包含IPv6地址格式"
+    },
+    {
+      "source": "satellite-4-2-ipv6",
+      "target": "fragment-4-2-2-ipv6-types",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：IPv6地址详解包含IPv6地址类型"
+    },
+    {
+      "source": "satellite-4-2-ipv6",
+      "target": "fragment-4-2-3-transition",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：IPv6地址详解包含IPv4到IPv6过渡技术"
+    },
+    {
+      "source": "satellite-4-3-routing",
+      "target": "fragment-4-3-1-static-routing",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：路由协议详解包含静态路由"
+    },
+    {
+      "source": "satellite-4-3-routing",
+      "target": "fragment-4-3-2-rip",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：路由协议详解包含RIP协议"
+    },
+    {
+      "source": "satellite-4-3-routing",
+      "target": "fragment-4-3-3-ospf",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：路由协议详解包含OSPF协议"
+    },
+    {
+      "source": "satellite-4-3-routing",
+      "target": "fragment-4-3-4-bgp",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：路由协议详解包含BGP协议"
+    },
+    {
+      "source": "satellite-4-3-routing",
+      "target": "fragment-4-3-5-routing-table",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：路由协议详解包含路由表与路由选择"
+    },
+    {
+      "source": "planet-05-devices-media",
+      "target": "satellite-5-1-media",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络设备与传输介质包含传输介质详解"
+    },
+    {
+      "source": "planet-05-devices-media",
+      "target": "satellite-5-2-devices",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络设备与传输介质包含网络设备详解"
+    },
+    {
+      "source": "satellite-5-1-media",
+      "target": "fragment-5-1-1-twisted-pair",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：传输介质详解包含双绞线"
+    },
+    {
+      "source": "satellite-5-1-media",
+      "target": "fragment-5-1-2-fiber",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：传输介质详解包含光纤"
+    },
+    {
+      "source": "satellite-5-1-media",
+      "target": "fragment-5-1-3-coaxial",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：传输介质详解包含同轴电缆"
+    },
+    {
+      "source": "satellite-5-1-media",
+      "target": "fragment-5-1-4-wireless",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：传输介质详解包含无线介质"
+    },
+    {
+      "source": "satellite-5-2-devices",
+      "target": "fragment-5-2-1-repeater-hub",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络设备详解包含中继器与集线器"
+    },
+    {
+      "source": "satellite-5-2-devices",
+      "target": "fragment-5-2-2-bridge",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络设备详解包含网桥"
+    },
+    {
+      "source": "satellite-5-2-devices",
+      "target": "fragment-5-2-3-switch",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络设备详解包含交换机"
+    },
+    {
+      "source": "satellite-5-2-devices",
+      "target": "fragment-5-2-4-router",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络设备详解包含路由器"
+    },
+    {
+      "source": "satellite-5-2-devices",
+      "target": "fragment-5-2-5-firewall-gateway",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：网络设备详解包含防火墙与网关"
+    },
+    {
+      "source": "planet-06-security",
+      "target": "satellite-6-1-threats",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络安全包含安全威胁分析"
+    },
+    {
+      "source": "planet-06-security",
+      "target": "satellite-6-2-cryptography",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络安全包含加密技术详解"
+    },
+    {
+      "source": "planet-06-security",
+      "target": "satellite-6-3-security-protocols",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络安全包含安全协议详解"
+    },
+    {
+      "source": "satellite-6-1-threats",
+      "target": "fragment-6-1-1-passive-attack",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：安全威胁分析包含被动攻击"
+    },
+    {
+      "source": "satellite-6-1-threats",
+      "target": "fragment-6-1-2-active-attack",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：安全威胁分析包含主动攻击"
+    },
+    {
+      "source": "satellite-6-1-threats",
+      "target": "fragment-6-1-3-mitm",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：安全威胁分析包含中间人攻击"
+    },
+    {
+      "source": "satellite-6-1-threats",
+      "target": "fragment-6-1-4-malware",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：安全威胁分析包含恶意软件"
+    },
+    {
+      "source": "satellite-6-2-cryptography",
+      "target": "fragment-6-2-1-symmetric",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：加密技术详解包含对称加密"
+    },
+    {
+      "source": "satellite-6-2-cryptography",
+      "target": "fragment-6-2-2-asymmetric",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：加密技术详解包含非对称加密"
+    },
+    {
+      "source": "satellite-6-2-cryptography",
+      "target": "fragment-6-2-3-hash",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：加密技术详解包含哈希函数"
+    },
+    {
+      "source": "satellite-6-2-cryptography",
+      "target": "fragment-6-2-4-signature",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：加密技术详解包含数字签名与证书"
+    },
+    {
+      "source": "satellite-6-3-security-protocols",
+      "target": "fragment-6-3-1-ssl-tls",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：安全协议详解包含SSL/TLS协议"
+    },
+    {
+      "source": "satellite-6-3-security-protocols",
+      "target": "fragment-6-3-2-ipsec",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：安全协议详解包含IPSec协议"
+    },
+    {
+      "source": "satellite-6-3-security-protocols",
+      "target": "fragment-6-3-3-https",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：安全协议详解包含HTTPS协议"
+    },
+    {
+      "source": "satellite-6-3-security-protocols",
+      "target": "fragment-6-3-4-ssh",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：安全协议详解包含SSH协议"
+    },
+    {
+      "source": "planet-07-applications",
+      "target": "satellite-7-1-dns",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络应用与服务包含DNS系统详解"
+    },
+    {
+      "source": "planet-07-applications",
+      "target": "satellite-7-2-http",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络应用与服务包含HTTP协议详解"
+    },
+    {
+      "source": "satellite-7-1-dns",
+      "target": "fragment-7-1-1-dns-hierarchy",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：DNS系统详解包含DNS层次结构"
+    },
+    {
+      "source": "satellite-7-1-dns",
+      "target": "fragment-7-1-2-dns-resolution",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：DNS系统详解包含DNS解析过程"
+    },
+    {
+      "source": "satellite-7-1-dns",
+      "target": "fragment-7-1-3-dns-records",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：DNS系统详解包含DNS记录类型"
+    },
+    {
+      "source": "satellite-7-1-dns",
+      "target": "fragment-7-1-4-dns-cache-cdn",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：DNS系统详解包含DNS缓存与CDN"
+    },
+    {
+      "source": "satellite-7-2-http",
+      "target": "fragment-7-2-1-http-methods",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：HTTP协议详解包含HTTP请求方法"
+    },
+    {
+      "source": "satellite-7-2-http",
+      "target": "fragment-7-2-2-http-status",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：HTTP协议详解包含HTTP状态码"
+    },
+    {
+      "source": "satellite-7-2-http",
+      "target": "fragment-7-2-3-http-versions",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：HTTP协议详解包含HTTP版本演进"
+    },
+    {
+      "source": "satellite-7-2-http",
+      "target": "fragment-7-2-4-https-tls",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：HTTP协议详解包含HTTPS与TLS握手"
+    },
+    {
+      "source": "satellite-7-2-http",
+      "target": "fragment-7-2-5-cookie-session",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：HTTP协议详解包含Cookie与Session"
+    },
+    {
+      "source": "planet-08-emerging-tech",
+      "target": "satellite-8-1-sdn-nfv",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络新兴技术包含SDN与NFV"
+    },
+    {
+      "source": "planet-08-emerging-tech",
+      "target": "satellite-8-2-cloud-network",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络新兴技术包含云计算网络"
+    },
+    {
+      "source": "planet-08-emerging-tech",
+      "target": "satellite-8-3-iot",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "行星引力：网络新兴技术包含物联网网络"
+    },
+    {
+      "source": "satellite-8-1-sdn-nfv",
+      "target": "fragment-8-1-1-sdn",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：SDN与NFV包含软件定义网络原理"
+    },
+    {
+      "source": "satellite-8-1-sdn-nfv",
+      "target": "fragment-8-1-2-openflow",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：SDN与NFV包含OpenFlow协议"
+    },
+    {
+      "source": "satellite-8-1-sdn-nfv",
+      "target": "fragment-8-1-3-nfv",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：SDN与NFV包含网络功能虚拟化"
+    },
+    {
+      "source": "satellite-8-2-cloud-network",
+      "target": "fragment-8-2-1-vpc",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：云计算网络包含虚拟网络VPC"
+    },
+    {
+      "source": "satellite-8-2-cloud-network",
+      "target": "fragment-8-2-2-load-balancer",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：云计算网络包含负载均衡"
+    },
+    {
+      "source": "satellite-8-2-cloud-network",
+      "target": "fragment-8-2-3-cdn",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：云计算网络包含内容分发网络CDN"
+    },
+    {
+      "source": "satellite-8-3-iot",
+      "target": "fragment-8-3-1-iot-protocols",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：物联网网络包含IoT协议"
+    },
+    {
+      "source": "satellite-8-3-iot",
+      "target": "fragment-8-3-2-edge-computing",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：物联网网络包含边缘计算"
+    },
+    {
+      "source": "satellite-8-3-iot",
+      "target": "fragment-8-3-3-5g",
+      "type": "strong-gravity",
+      "strength": 0.7,
+      "description": "卫星引力：物联网网络包含5G网络"
+    },
+    {
+      "source": "planet-01-basics",
+      "target": "planet-02-osi",
+      "type": "weak-gravity",
+      "strength": 0.4,
+      "description": "弱引力：网络基础与OSI参考模型互为理论参照"
+    },
+    {
+      "source": "planet-02-osi",
+      "target": "planet-01-basics",
+      "type": "weak-gravity",
+      "strength": 0.4,
+      "description": "弱引力：OSI参考模型与网络基础互为理论参照"
+    },
+    {
+      "source": "planet-02-osi",
+      "target": "planet-03-tcpip",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "强引力：OSI参考模型指导TCP/IP协议栈的设计"
+    },
+    {
+      "source": "planet-03-tcpip",
+      "target": "planet-07-applications",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "强引力：TCP/IP协议栈支撑HTTP/DNS等网络应用"
+    },
+    {
+      "source": "planet-04-ip-routing",
+      "target": "planet-03-tcpip",
+      "type": "strong-gravity",
+      "strength": 0.8,
+      "description": "强引力：IP协议是TCP/IP协议栈的网络层核心"
+    },
+    {
+      "source": "planet-06-security",
+      "target": "planet-07-applications",
+      "type": "weak-gravity",
+      "strength": 0.4,
+      "description": "弱引力：网络安全与网络应用与服务密切相关"
+    },
+    {
+      "source": "planet-08-emerging-tech",
+      "target": "planet-05-devices-media",
+      "type": "weak-gravity",
+      "strength": 0.4,
+      "description": "弱引力：网络新兴技术与网络设备与传输介质相关"
+    },
+    {
+      "source": "satellite-3-2-tcp",
+      "target": "satellite-3-3-udp",
+      "type": "repulsion",
+      "strength": 0.6,
+      "description": "斥力：TCP可靠传输 vs UDP高效传输，设计理念互斥"
+    },
+    {
+      "source": "satellite-3-3-udp",
+      "target": "satellite-3-2-tcp",
+      "type": "repulsion",
+      "strength": 0.6,
+      "description": "斥力：UDP高效传输 vs TCP可靠传输，设计理念互斥"
+    },
+    {
+      "source": "satellite-4-1-ipv4",
+      "target": "satellite-4-2-ipv6",
+      "type": "repulsion",
+      "strength": 0.6,
+      "description": "斥力：IPv4(32位) vs IPv6(128位)，地址空间演进中的替代关系"
+    },
+    {
+      "source": "satellite-4-2-ipv6",
+      "target": "satellite-4-1-ipv4",
+      "type": "repulsion",
+      "strength": 0.6,
+      "description": "斥力：IPv6(128位) vs IPv4(32位)，地址空间演进中的替代关系"
+    },
+    {
+      "source": "satellite-7-2-http",
+      "target": "fragment-6-3-3-https",
+      "type": "repulsion",
+      "strength": 0.5,
+      "description": "斥力：HTTP(非安全) vs HTTPS(安全)，安全与非安全的对比"
+    },
+    {
+      "source": "fragment-6-3-3-https",
+      "target": "satellite-7-2-http",
+      "type": "repulsion",
+      "strength": 0.5,
+      "description": "斥力：HTTPS(安全) vs HTTP(非安全)，安全与非安全的对比"
+    },
+    {
+      "source": "fragment-6-2-1-symmetric",
+      "target": "fragment-6-2-2-asymmetric",
+      "type": "repulsion",
+      "strength": 0.5,
+      "description": "斥力：对称加密(单密钥) vs 非对称加密(双密钥)，加密方式对比"
+    },
+    {
+      "source": "fragment-6-2-2-asymmetric",
+      "target": "fragment-6-2-1-symmetric",
+      "type": "repulsion",
+      "strength": 0.5,
+      "description": "斥力：非对称加密(双密钥) vs 对称加密(单密钥)，加密方式对比"
+    },
+    {
+      "source": "fragment-1-1-1-packet-switching",
+      "target": "fragment-1-1-2-arpanet",
+      "type": "repulsion",
+      "strength": 0.3,
+      "description": "斥力：分组交换 vs 电路交换，交换方式的对比互斥"
+    },
+
+    {
+      "source": "comet-002",
+      "target": "planet-06-security",
+      "type": "strong-gravity",
+      "strength": 0.6,
+      "description": "彗星引力：网络安全与加密关联到网络安全"
+    },
+    {
+      "source": "comet-002",
+      "target": "planet-03-tcpip",
+      "type": "strong-gravity",
+      "strength": 0.6,
+      "description": "彗星引力：网络安全与加密关联到TCP/IP协议栈"
+    },
+    {
+      "source": "comet-003",
+      "target": "planet-07-applications",
+      "type": "strong-gravity",
+      "strength": 0.6,
+      "description": "彗星引力：HTTP与DNS协作关联到网络应用与服务"
+    },
+    {
+      "source": "comet-003",
+      "target": "planet-03-tcpip",
+      "type": "strong-gravity",
+      "strength": 0.6,
+      "description": "彗星引力：HTTP与DNS协作关联到TCP/IP协议栈"
+    }
+  ]
+}
