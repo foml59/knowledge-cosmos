@@ -29,5 +29,3 @@ python -m http.server 8000
 - 网络安全
 - 网络应用与服务
 - 一些新兴技术
-
-代码写得比较随意，主要是自己玩的一个 side project，MIT 协议随便用。
